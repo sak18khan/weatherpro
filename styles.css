@@ -1,0 +1,74 @@
+body{
+  background-image: url("https://images.unsplash.com/photo-1558486012-817176f84c6d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=319&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+
+}
+.weatherbox{
+height: 400px;
+width: 400px;
+display: flex;
+align-items: center;
+justify-content: center;
+margin-left: 35%;
+margin-top: 4%;
+border: 5px solid black;
+color: white;
+background-color: black; opacity: 0.7;
+border-radius: 20%;
+
+}
+h1{
+  text-align: center;
+  padding: 5px;
+  margin-bottom: 5px;
+}
+.inputsearch{
+  padding-top: 5px;
+  background-color: transparent;
+  padding: 5px;
+  color: white;
+  width: 78%;
+}
+.btn{
+  border: 2px solid white;
+  width: 20%;
+  height: 40px;
+}
+.dt{
+  background-color: black;
+  color: white;
+  padding: 10px;
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-top: 5%;
+  text-align: center;
+}
+body{
+  background-color: black;
+}
+.footer a{
+  text-align: center;
+  color: white;
+  margin:10px;
+  font-size: 25px;
+}
+.footer{
+  color: white;
+  margin-left: 45%;
+  margin-top: 2%
+}
+@media only screen and (max-width: 600px) {
+  .weatherbox{
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    border-radius: 0;
+  }
+  .dt{
+    width: 100%;
+    text-align: center;
+    margin-left: 0;
+  }
+}
